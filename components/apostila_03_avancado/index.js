@@ -24,7 +24,7 @@ function zerarNumber() {
       <Text style={styles.paragraph}>Exemplo apostila 3</Text>
 
       <Text style={styles.textCounter}>{contador}</Text>
-
+      
       <View>
       <TouchableOpacity
        style={styles.button}
