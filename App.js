@@ -3,11 +3,12 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import Apostila03 from './components/apostila_03';
 import Apostila3A from './components/apostila_03_avancado';
+import Apostila04 from './components/apostila_04';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Apostila3A />
+      <View style={styles.container}>
+      <Apostila04 />
       <StatusBar style="auto" />
     </View>
   );
