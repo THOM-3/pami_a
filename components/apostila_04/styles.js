@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#ffcdd2', 
         //width: '100%'
     }, 
-    texto: {
+    texto: {                                
         fontSize: 26, 
         fontWeight: 'bold', 
         color: '#b71c1c',
@@ -20,6 +20,13 @@ const styles = StyleSheet.create({
         textAlign: 'center', 
         color: '#E53935',     
     }, 
+
+    txtEsq: { 
+
+        justifyContent: 'left',
+
+    },
+
     txtEntrada: {
     borderWidth: 4, 
     textAlign: 'center', 
@@ -29,16 +36,19 @@ const styles = StyleSheet.create({
     color: '#E53935', 
     borderRadius: 10, 
     width: '70%',
+     margin: '5%',
     }, 
     button: {
     backgroundColor: '#E53935', 
     height: 40, 
     justifyContent: 'center', 
     borderRadius: 10, 
-    marginTop: 20, 
+    marginTop: 20,
+    margin: 20,
+
     }, 
     textButton: {
-    fontSize: 22, 
+    fontSize: 20, 
     color: '#FFCDD2', 
     textAlign: 'center', 
     }, 
