@@ -21,11 +21,11 @@ const styles = StyleSheet.create({
         color: '#E53935',     
     }, 
 
-    txtEsq: { 
+    // txtEsq: { 
 
-        justifyContent: 'left',
+    //     justifyContent: 'left',
 
-    },
+    // },
 
     txtEntrada: {
     borderWidth: 4, 
