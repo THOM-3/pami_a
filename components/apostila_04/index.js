@@ -7,7 +7,7 @@ import styles from './styles';
 function Apostila04() {
 
     const [entrada, setEntrada] = useState('')
-    const [mensagem, setMensagem] = useState('Me Chama de GEBA');
+    const [mensagem, setMensagem] = useState('Insira Nome e Sobrenome');
 
     function apresentaMensagem(){
 
@@ -55,7 +55,7 @@ function Apostila04() {
                     onPress={()=> apresentaMensagem()}
                 >
                     
-                    <Text style={styles.Button}>Exibir texto </Text>
+                    <Text style={styles.textButton}>Exibir texto </Text>
                 </TouchableOpacity>
 
         </View>

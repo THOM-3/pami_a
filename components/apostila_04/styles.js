@@ -21,11 +21,13 @@ const styles = StyleSheet.create({
         color: '#E53935',     
     }, 
 
-    // txtEsq: { 
+   txtEsq: {
 
-    //     justifyContent: 'left',
+    alignSelf: 'flex-start',
+    marginLeft: 60,
+    fontFamily: 'sans-serif',
 
-    // },
+   },
 
     txtEntrada: {
     borderWidth: 4, 
@@ -38,6 +40,7 @@ const styles = StyleSheet.create({
     width: '70%',
      margin: '5%',
     }, 
+
     button: {
     backgroundColor: '#E53935', 
     height: 40, 
@@ -45,12 +48,14 @@ const styles = StyleSheet.create({
     borderRadius: 10, 
     marginTop: 20,
     margin: 20,
-
+    alignItems: 'center',
     }, 
+
     textButton: {
     fontSize: 20, 
     color: '#FFCDD2', 
     textAlign: 'center', 
+
     }, 
 });
 
