@@ -11,7 +11,7 @@
         function Soma() {
             const conta = parseInt(n1) + parseInt(n2);
             setTotal(conta.toString());
-            setTotal(n1 + n2);
+            
         }
         return(
             
@@ -30,7 +30,7 @@
             <Text style={styles.txtSaida}> + </Text>
 
             <Text style={styles.textLabel}>  2º Número </Text>
-            <TextInput onChangeText={(entrada) => setN1(entrada)}
+            <TextInput onChangeText={(entrada) => setN2(entrada)}
                         value={n2}
                         style={styles.txtEntrada}
                         /> 
