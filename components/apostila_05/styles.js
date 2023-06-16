@@ -37,7 +37,8 @@ const styles = StyleSheet.create({
       justifyContent: 'center', 
       borderRadius: 10, 
       marginTop: 20, 
-      width: '70%'
+      width: 70,
+      marginLeft: 20,
     }, 
     textButton: {
       fontSize: 22, 
@@ -49,6 +50,13 @@ const styles = StyleSheet.create({
       fontWeight: 'bold', 
       color: '#C51162',     
     }, 
+    botoes: {
+
+      // flex: 1,
+      flexDirection: 'row',
+      textAlign: 'center',
+      justifyContent: 'center',
+    }
   });
   
   export default styles;

@@ -5,20 +5,14 @@ import styles from './styles';
 
 
 function Apostila04() {
-
+    const [entrada2, setEntrada2] = useState('')
     const [entrada, setEntrada] = useState('')
     const [mensagem, setMensagem] = useState('Insira Nome e Sobrenome');
 
     function apresentaMensagem(){
-
-        setMensagem(entrada);
+        setMensagem(entrada + ' ' + entrada2);
         setEntrada('');
-
-    function apresentaNome(){
-        setMensagem(entrada);
-        setEntrada('');
-    }    
-    
+        setEntrada2('');
     }
 
 
@@ -46,8 +40,8 @@ function Apostila04() {
 
             <TextInput 
                 style={styles.txtEntrada}
-                onChangeText={(e) => setEntrada(e)}
-                value={entrada}
+                onChangeText={(i) => setEntrada2(i)}
+                value={entrada2}
             />
                 
                 <TouchableOpacity 

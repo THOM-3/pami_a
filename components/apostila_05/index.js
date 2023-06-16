@@ -51,8 +51,9 @@
                         /> 
             <Text style={styles.txtSaida}> = </Text> 
 
-            <Text style={[styles.txtSaida, {margin: 0}]}> </Text>   
+            <Text style={[styles.txtSaida, {margin: 0}]}> </Text> 
 
+            <View style={styles.botoes}>
             <TouchableOpacity style={ styles.button} onPress={() => Soma()}>
             <Text style={styles.textButton}> + </Text>
 
@@ -69,6 +70,9 @@
             <Text style={styles.textButton}> / </Text>
 
             </TouchableOpacity>   
+            </View>
+
+            
 
             <Text style={styles.textLabel}>  Total </Text>
             <TextInput style={styles.txtEntrada}
