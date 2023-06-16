@@ -37,6 +37,7 @@ const styles = StyleSheet.create({
       justifyContent: 'center', 
       borderRadius: 10, 
       marginTop: 20, 
+      width: '70%'
     }, 
     textButton: {
       fontSize: 22, 

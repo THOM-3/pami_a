@@ -13,6 +13,21 @@
             setTotal(conta.toString());
             
         }
+        function Sub() {
+            const conta = parseInt(n1) - parseInt(n2);
+            setTotal(conta.toString());
+            
+        }
+        function Mult() {
+            const conta = parseInt(n1) * parseInt(n2);
+            setTotal(conta.toString());
+            
+        }
+        function Div() {
+            const conta = parseInt(n1) / parseInt(n2);
+            setTotal(conta.toString());
+            
+        }
         return(
             
             <View style={styles.container}>
@@ -36,7 +51,24 @@
                         /> 
             <Text style={styles.txtSaida}> = </Text> 
 
-            <Text style={[styles.txtSaida, {margin: 0}]}> </Text>      
+            <Text style={[styles.txtSaida, {margin: 0}]}> </Text>   
+
+            <TouchableOpacity style={ styles.button} onPress={() => Soma()}>
+            <Text style={styles.textButton}> + </Text>
+
+            </TouchableOpacity>
+            <TouchableOpacity style={ styles.button} onPress={() => Sub()}>
+            <Text style={styles.textButton}> - </Text>
+
+            </TouchableOpacity>
+            <TouchableOpacity style={ styles.button} onPress={() => Mult()}>
+            <Text style={styles.textButton}> * </Text>
+
+            </TouchableOpacity>
+            <TouchableOpacity style={ styles.button} onPress={() => Div()}>
+            <Text style={styles.textButton}> / </Text>
+
+            </TouchableOpacity>   
 
             <Text style={styles.textLabel}>  Total </Text>
             <TextInput style={styles.txtEntrada}
@@ -44,10 +76,7 @@
                         value={total}
                         />
 
-            <TouchableOpacity style={ styles.button} onPress={() => Soma()}>
-            <Text style={styles.textButton}> + </Text>
-
-            </TouchableOpacity>
+            
             </View>
 
         );
